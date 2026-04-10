@@ -1,5 +1,7 @@
+/**
 @author Pablo Vera Garcia <pabloveragarcia20@gmail.com>
-
+*/
+    
 import h from './helpers.js';
 
 window.addEventListener( 'load', () => {
