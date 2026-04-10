@@ -1,0 +1,30 @@
+{
+  "name": "LiveCall App",
+  "version": "0.0.1",
+  "description": "LiveCall App es una plataforma de videollamadas en tiempo real inspirada en herramientas como Zoom y Google Meet. El objetivo del proyecto es ofrecer una solución moderna, ligera y escalable para reuniones virtuales, utilizando tecnologías web abiertas como WebRTC, Node.js, TypeScript y Angular.
+La aplicación permite a los usuarios crear y unirse a salas de videoconferencia sin necesidad de instalación, ofreciendo transmisión de audio y video, chat integrado, gestión de participantes y una arquitectura preparada para escalar a múltiples usuarios simultáneos.",
+  "main": "src/app.js",
+  "dependencies": {
+    "express": "^4.21.0",
+    "serve-favicon": "^2.5.0",
+    "socket.io": "^4.7.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "scripts": {
+    "watch": "nodemon --watch \"src/\" --exec \"node src/app.js\"",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amirsanni/livestream-server.git"
+  },
+  "keywords": [
+    "LiveStream",
+    "Server"
+  ],
+  "author": "Pablo Vera Garcia <pabloveragarcia20@gmail.com>",
+  "license": "ISC",
+}
